@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: whitesmoke;
+    background: url("../media/serpentsbackground.jpg") no-repeat fixed;
+    background-size: cover;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 80%;
+}
+
+#wolfe {
+    background: url("../media/wolvebackground.jpg ") no-repeat fixed;
+}
+
+#shield {
+    background: url("../media/shieldbackground.jpg") no-repeat fixed;
+}
+
+#god {
+    background: url("../media/brewerBackgroundgold.jpg") no-repeat fixed;
+}
+
+@font-face {
+    font-family: "Wolves";
+    src: url("../media/fonts/Wolves and Raven.ttf");
+}
+
+h1, nav ul li a {
+    font-family: Wolves, serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    border: rgba(15, 29, 36, 0.78) 3px solid;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(15, 29, 36, 0.78);
+}
+
+nav ul li:first-child {
+    padding-left: 0;
+}
+
+nav ul li:hover {
+    color: whitesmoke;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+
+#contact {
+    margin-top: 5rem
+}
+
+#contact h3 {
+    padding-bottom: 15px;
+    font-size: 1.05rem;
+
+    letter-spacing: 2px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 25px;
+}
+
+.video {
+
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 15px;
+}
+
+.active {
+    background-color: rgba(15, 29, 36, 0.78);
+    color: whitesmoke;
+}
+
+.italic {
+    color: darkgrey;
+    font-style: italic;
+}
+
+.prologue, .chapter1, .chapter2 {
+    border-bottom: solid 3px rgba(15, 29, 36, 0.78);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#god h2, #god h3 {
+    font-family: Wolves, serif;
+    padding-bottom: 15px;
+}
+
+#god h2 {
+    font-size: 3rem;
+}
+
+#god h3 {
+    font-size: 2.1rem;
+}
+
+aside {
+    position: fixed;
+    top: 35%;
+    left: 10%;
+}
+
+.collapsible {
+    background-color: rgba(15, 29, 36, 0.78);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    border-radius: 25px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    width: 150%;
+    margin-bottom: 10px;
+}
+
+.expand, .collapsible:hover {
+    background-color: #313f48;
+    border: 2px solid rgba(15, 29, 36, 0.78);
+    padding: 15px;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(144, 147, 149);
+    color: black;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    width: 125%;
+    font-size: 1.1rem;
+}
+
+.content ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.content ul :hover {
+    color: whitesmoke;
+}
+
+.content ul li i{
+    padding-right: 5px;
+}
+
+#home div {
+    vertical-align: top;
+    top: 25%;
+    width: 75%;
+    display: inline-block;
+}
+
+#home img {
+    width: 12.5%;
+    display: inline-block;
+}
